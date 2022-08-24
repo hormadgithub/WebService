@@ -113,7 +113,6 @@ type ListPart struct {
 	Description string `json:"Description"`
 }
 
-
 type ListPartTube struct {
 	PartNid     string `json:"PartNid"`
 	Digitno     string `json:"Digitno"`
