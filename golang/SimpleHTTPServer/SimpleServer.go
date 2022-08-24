@@ -15,6 +15,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
+
 var server = "maria-2019"
 var port = 1433
 var user = "alluser"
