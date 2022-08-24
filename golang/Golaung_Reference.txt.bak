@@ -1,0 +1,97 @@
+
+
+ถาษา GOLang
+
+การเรียกใช้ใน firefox แบบมีพารามิเตอร์
+http://localhost:8080/Mobile_ListDocument?strOption=P?strStfcode=1233
+
+
+
+
+การใช้คำสั่ง SQL
+https://golang.org/pkg/database/sql/
+http://go-database-sql.org/
+https://www.somkiat.cc/manage-database-mysql-with-golang/
+
+การ Build เป็น exe
+ไปที่ Folder ใน Tab Terminal
+C:\website\golang\SimpleHTTPServer>Go build
+
+การ Download Version ล่าสุด
+https://golang.org/dl/
+Download vscode ใช้สำหรับเขียนภาษา go
+https://code.visualstudio.com/download
+
+
+Modules ใน Golang
+go env เพื่อดูค่าต่างๆ ที่ถูกกำหนดไว้
+
+คำสั่งในการกำหนดค่า
+go env -w GO111MODULE=auto
+
+https://golang.org/ref/mod
+
+บริษัท นิวแม็ก จำกัด
+การสร้าง Struct
+https://www.youtube.com/watch?v=744AK2IP4dU
+
+
+รับค่าจาก Database ใสใน Struct
+https://stackoverflow.com/questions/17265463/how-do-i-convert-a-database-row-into-a-struct
+https://stackoverflow.com/questions/34440242/golang-reflect-for-sql-scan-report-error
+https://sitaramshelke.medium.com/golang-and-json-in-postgres-8df1af596a8b
+
+คำสั่งในการ สร้าง Module 
+พิมพ์ คำสั่งนี้ go mod init github.com/gokusenz/go-modules-example ใน Terminal
+
+
+https://igokuz.com/%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-go-modules-go-1-11-62c36a0c5fd9
+
+การส่ง พารามิเตอร์ GET OR POST
+https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/04.1.html
+https://austingwalters.com/building-a-web-server-in-go-user-input/
+
+การ Query หลายรูปแบบ
+https://golang.org/src/database/sql/example_test.go
+
+
+Creating a Simple Hello World HTTP Server in Go
+https://www.youtube.com/watch?v=VA15eMLBPgE
+
+Setting A Go HTTP Server w/ a Sample Status Code
+https://www.youtube.com/watch?v=xQkJ7ZRA-BI&t=3s
+
+
+การเชื่อมต่ SQL Server
+https://www.youtube.com/watch?v=5vdiasgslks
+
+
+Mobile App
+https://www.youtube.com/watch?v=OM3Pd28WKlg
+
+สอนเบื้องต้น ดีมาก
+https://www.youtube.com/watch?v=75lJDVT1h0s&list=PLzMcBGfZo4-mtY_SE3HuzQJzuj4VlUG0q
+https://www.youtube.com/watch?v=0bYTMw_jiuo&t=374s
+
+\n ขึ้นบรรทัดใหม่
+%s string
+%d decimal
+%v ไม่ทราบตัวแปร
+%t ชนิดข้อมูล
+
+%b แสดงเป็นเลข ฐาน2
+%o แสดงเป็นเลข ฐาน8
+%d แสดงเป็นเลข ฐาน10
+%x แสดงเป็นเลข ฐาน16
+%f default ทศนิยม
+%9f
+%.2f
+%9.2f ทศนิยม 2 ตำแหน่ง
+%9.f ไม่เอาทศนิยม
+%g
+%e
+%q
+
+!  NOT
+|| OR
+&& AND
